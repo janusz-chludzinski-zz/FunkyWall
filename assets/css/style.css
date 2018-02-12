@@ -1,0 +1,177 @@
+/******* FONT *******/
+
+@font-face {
+    font-family: Titan;
+    src: url('../font/TitanOne-Regular.ttf');
+}
+
+/********************/
+
+
+
+h1 {
+  color: #000;
+  font-family: 'Titan';
+  font-size: 3rem;
+}
+
+header {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-container nav ul  {
+  display: flex;
+  align-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.product-container nav ul li {
+  font-family: 'Titan';
+  transition: all 0.3s ease-in-out;
+  margin-right: 40px;
+  font-size: 1.5rem;
+}
+
+.product-container nav ul li:hover {
+  color: #e3b6bd;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.products-wrap {
+  position: relative;
+}
+
+.products .item {
+  width: 22%;
+}
+
+.posters-carousel {
+  display: flex;
+}
+
+.item {
+  background: #f0ecea;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.item:hover .item-info{
+  bottom: 0;
+}
+
+.item img {
+  width: 190px;
+}
+
+.item-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  width: 100%;
+  padding-top: 10px;
+  bottom: -100px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-info a {
+  display: block;
+  text-decoration: none;
+  margin: 10px auto;
+  width: 80%;
+}
+
+footer {
+  background: #f0ecea;
+  padding: 20px;
+}
+
+footer div.wrapped {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapped {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.active {
+  color: #e3b6bd;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-family: 'Open Sans';
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #e3b6bd;
+}
+
+.external-links {
+  display: flex;
+  padding-top: 4px;
+}
+
+.external-links li a {
+  display: inline-block;
+  width: 150px;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-left: 20px;
+}
+
+.external-links li a:hover {
+  color: #fff;
+  background-color: #e3b6bd;
+}
+
+
+/****** OWL SETTINGS ******/
+
+.owl-nav {
+  margin: 0 auto;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 21rem;
+}
+
+.nav-item {
+  font-size: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #e3b6bd;
+}
