@@ -29,7 +29,8 @@ header nav ul {
 
 .product-container nav ul  {
   display: flex;
-  align-content: flex-start;
+  /*align-content: flex-start;*/
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -89,6 +90,9 @@ header nav ul {
   bottom: -100px;
   text-align: center;
   transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0px -12px 41px -15px rgba(87,87,87,1);
+  -moz-box-shadow: 0px -12px 41px -15px rgba(87,87,87,1);
+  box-shadow: 0px -12px 41px -15px rgba(87,87,87,1);
 }
 
 .item-info a {
@@ -164,7 +168,7 @@ footer div.wrapped {
   display: flex;
   justify-content: space-between;
   position: relative;
-  bottom: 21rem;
+  bottom: 317px;
 }
 
 .nav-item {
@@ -174,4 +178,104 @@ footer div.wrapped {
 
 .nav-item:hover {
   color: #e3b6bd;
+}
+
+
+/****** RWD ******/
+
+@media (max-width:1600px) {
+  .owl-nav {
+    bottom: 290px;33
+  }
+}
+
+@media (max-width:1450px) {
+  .owl-nav {
+    bottom: 250px;
+  }
+}
+
+@media (max-width:1145px) {
+  .owl-nav {
+    bottom: 215px;
+  }
+}
+
+@media (max-width:1060px) {
+  .products {
+    justify-content: center;
+  }
+  .products .item {
+    width: 26%;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width:960px) {
+  .owl-nav {
+    bottom: 185px;
+  }
+}
+
+@media (max-width:860px) {
+  .products {
+    justify-content: center;
+  }
+  .products .item {
+    width: 30%;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width:760px) {
+  .owl-nav {
+    bottom: 150px;
+  }
+}
+
+@media (max-width:660px) {
+
+  header {
+    flex-flow: column;
+  }
+
+  header h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .owl-nav {
+    bottom: 130px;
+  }
+
+  .products .item {
+    width: 46%;
+    margin-right: 30px;
+  }
+
+  footer div.wrapped {
+    flex-flow: column;
+  }
+
+  footer div.wrapped h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  footer nav ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width:540px) {
+  .owl-nav {
+    bottom: 110px;
+  }
 }
