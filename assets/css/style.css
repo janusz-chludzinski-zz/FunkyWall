@@ -85,9 +85,9 @@ header nav ul {
 .item-info {
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
+  bottom: -93px;
   width: 100%;
   padding-top: 10px;
-  bottom: -93px;
   text-align: center;
   transition: all 0.3s ease-in-out;
   -webkit-box-shadow: 0px -12px 41px -15px rgba(87,87,87,1);
@@ -216,25 +216,6 @@ footer div.wrapped {
     bottom: 185px;
   }
   margin-bottom: 20px;
-}
-
-.product-container nav ul li {
-  font-family: 'Titan';
-  transition: all 0.3s ease-in-out;
-  margin-right: 40px;
-  font-size: 1.5rem;
-}
-
-.product-container nav ul li:hover {
-  color: #e3b6bd;
-  cursor: pointer;
-}
-
-.products {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
 }
 
 @media (max-width:860px) {
