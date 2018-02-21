@@ -159,6 +159,31 @@ footer div.wrapped {
   background-color: #e3b6bd;
 }
 
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-links li {
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+.contact-links li:nth-child(3) {
+  padding-top: 10px;
+  font-family: 'Titan';
+}
+
+.contact-links li a {
+  font-size: 3rem;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-links li a:hover {
+  color: #e3b6bd;
+}
+
 
 /****** OWL SETTINGS ******/
 
