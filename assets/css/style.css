@@ -129,6 +129,10 @@ footer div.wrapped {
   display: none;
 }
 
+.hidden-button {
+  visibility: hidden;
+}
+
 .button {
   padding: 10px;
   background-color: #000;
