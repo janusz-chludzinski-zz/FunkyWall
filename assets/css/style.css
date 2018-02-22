@@ -301,6 +301,10 @@ footer div.wrapped {
     justify-content: center;
   }
 
+  header nav ul li:first-child a {
+    margin-left: 0;
+  }
+
   .owl-nav {
     bottom: 130px;
   }
@@ -348,5 +352,19 @@ footer div.wrapped {
 @media (max-width:447px) {
   .item-info {
     bottom: -93px;
+  }
+
+  .contact-links {
+    flex-flow: column;
+  }
+
+  .contact-links li {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:410px) {
+  .owl-nav {
+    bottom: 92px;
   }
 }
