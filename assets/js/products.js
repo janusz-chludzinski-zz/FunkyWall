@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   var product = $(".product-nav");
-  
+
   var posters = $(".posters");
   var measures = $(".measures");
   var stickers = $(".stickers");
@@ -15,10 +15,6 @@ $(document).ready(function(){
       else if($(this).attr('data') === 'measure') {
         adjustClasses($(this));
         $('.measures').removeClass("hidden");
-      }
-      else if($(this).attr('data') === 'sticker') {
-        adjustClasses($(this));
-        $('.stickers').removeClass("hidden");
       }
   })
 });
