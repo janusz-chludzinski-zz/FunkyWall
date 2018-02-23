@@ -309,6 +309,10 @@ footer div.wrapped {
     bottom: 130px;
   }
 
+  .owl-nav .nav-item {
+    font-size: 2rem;
+  }
+
   .products .item {
     width: 80%;
     margin-right: 0;
