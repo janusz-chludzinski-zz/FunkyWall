@@ -192,6 +192,9 @@ footer div.wrapped {
   color: #e3b6bd;
 }
 
+.available-soon {
+  font-family: 'Titan'
+}
 
 /****** OWL SETTINGS ******/
 
@@ -212,7 +215,6 @@ footer div.wrapped {
 .nav-item:hover {
   color: #e3b6bd;
 }
-
 
 /****** RWD ******/
 

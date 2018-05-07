@@ -16,6 +16,10 @@ $(document).ready(function(){
         adjustClasses($(this));
         $('.measures').removeClass("hidden");
       }
+      else if ($(this).attr('data') === 'sticker') {
+        adjustClasses($(this));
+        $('.stickers').removeClass("hidden");
+      }
   })
 });
 
